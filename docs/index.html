@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Chilaquiles con Queso</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+  <main id="tarjeta">
+    <div class="receta-item">
+      <img src="img/chilaquiles.jpg" alt="chilaquiles" id="img-chilaquiles" onclick="mostrarReceta('info-chilaquiles')">
+
+      <div id="info-chilaquiles" class="info-receta">
+        <div class="receta-contenido">
+          <div class="contenido-dividido">
+            <div class="receta-texto">
+              <h1>Chilaquiles con Queso</h1>
+              <h3>Ingredientes:</h3>
+              <ul>
+                <li>2 tortillas normales fritas en cuadros</li>
+                <li>Salsa casera al gusto: 2 tomates, 2 chiles serranos, ¼ diente de ajo, ¼ de cebolla</li>
+                <li>2 piezas de huevo entero</li>
+                <li>2 claras de huevo</li>
+                <li>30 g de queso fresco o panela</li>
+                <li>⅓ pieza de aguacate (30 g)</li>
+              </ul>
+
+              <h3>Preparación:</h3>
+              <p>
+                1 Cuece los tomates, chiles serranos, ajo y cebolla durante 10 a 15 minutos en agua.<br>
+                2 Licúa con un poco de orégano para obtener la salsa casera.<br>
+                3 Fríe las tortillas cortadas en cuadros hasta que estén crujientes.<br>
+                4 En una sartén, añade la salsa casera y mezcla con las tortillas fritas.<br>
+                5 Agrega los huevos, claras y queso fresco encima.<br>
+                6 Sirve caliente con trozos de aguacate por encima.
+              </p>
+            </div>
+
+            <div class="receta-imagen">
+              <img src="img/chilaquiles.jpg" alt="Chilaquiles con queso">
+            </div>
+          </div>
+        </div>
+
+        <button class="boton-cerrar" onclick="cerrarReceta('info-chilaquiles')">Cerrar Receta</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="ejecucion.js"></script>
+</body>
+</html>
+
